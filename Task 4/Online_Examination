@@ -13,7 +13,7 @@ class login extends JFrame implements ActionListener
     login()  
     {     
         JLabel userLabel = new JLabel("                        Username");  
-        userLabel.setFont(new Font("Arial", Font.PLAIN, 40));   //"<b><font face=\"Verdana\" size=\"30\"> This is a demo text with a different font!</font></b>"  
+        userLabel.setFont(new Font("Arial", Font.PLAIN, 40));     
         textField1 = new JTextField(15);
         Font bigFont1 = textField1.getFont().deriveFont(Font.PLAIN, 40f);
         textField1.setFont(bigFont1);
